@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+[class*="col-"]{
+  min-height: 50px;
+  /* debug  */
+  border: 1px solid black;
+  /* background-color: red; */
+
+}
+
+
+/* PARTE HEADER */
+
+/* header menù */
+.header-menù .row .col-lg-6,.col-lg-2{
+ background-color: #2C3E50;
+}
+
+/* jumbotron */
+.rule-jumbotron .row .col-lg-12{
+  background-color: #1ABC9C;
+  /* debug */
+  min-height: 400px;
+}
+
+
+
+/* PARTE MAIN */
+
+/* main parte 1 */
+/* section1 */
+.portofolio-title .row .col-lg-12{
+  background-color: yellow;
+}
+
+/* immagini */
+/* section2 */
+.img-section2-3 .row .col-lg-4 {
+  background-color: orange;
+}
+
+.width{
+  width: 60%;
+  margin: 0 auto;
+
+}
+
+
+/* main parte2 */
+/* section1 */
+.title-about .row .col-lg-12{
+  background-color: #1ABC9C;
+  /* debug */
+  min-height: 70px;
+}
+
+/* section2 */
+.text-about .row .col-lg-6{
+  background-color:#1ABC9C;
+  /* debug */
+  min-height: 200px;
+}
+
+/* section3 */
+.buttom-download .row .col-lg-12{
+  background-color: #1ABC9C;
+  /* debug */
+  min-height: 70px;
+}
+
+
+/* main parte3 */
+/* section1 */
+.title-contact-me .row .col-12-lg{
+
+}
+
+/* section2 */
+.dati-personali .row .col-12-lg{
+  /* debug*/
+  min-height: 400px;
+
+}
+
+
+/* PARTE FOOTER */
+
+/* section1 */
+.footer-section1 .row .col-lg-12,.col-lg-4{
+  background-color: #3A546D;
+  min-height: 100px;
+}
+
+/* section2 */
+.footer-section2 .row .col-lg-12{
+  background-color: #3A546D;
+}
