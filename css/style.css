@@ -13,23 +13,62 @@
 
 }
 
-
 /* PARTE HEADER */
 
 /* header menù */
-.header-menù .row .col-xs-6{
- background-color: #2C3E50;
+header .container-fluid{
+  background-color: #3A546D;
 }
 
+/* COLOR PORTFOLIO ABOUT CONTACT  E    START BOOTSTRAP*/
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand{
+  color: white;
+  font-size: 17px;
+}
+
+
+
 /* jumbotron */
-.rule-jumbotron .row .col-xs-12{
+.rule-jumbotron{
   background-color: #1ABC9C;
+text-align: center;   /* tutto il contenitore è centrato */
   /* debug */
   min-height: 400px;
 }
 
+.rule-jumbotron img{
+  height: 250px;
+ display: block;
+ margin: 0 auto 30px;
+ margin-top: 90px;
+}
 
+.rule-jumbotron h1{
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+}
 
+.line{
+  display: inline-block;
+  width: 10%;
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: white;
+  vertical-align: 10px;
+
+}
+
+.fas{
+  color: white;
+  font-size: 33px;
+  margin: 30px 20px;
+}
+
+.rule-jumbotron h3{
+  color: white;
+  margin-bottom: 80px;
+}
 /* PARTE MAIN */
 
 /* main parte 1 */
@@ -45,9 +84,21 @@
 }
 
 .width{
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
 
+}
+
+.navbar-toggle{
+  border-radius: 7px;
+  background-color:#148F77;
+  border: 0;
+  width: 200px;
+  height:
+}
+
+.navbar-toggle .icon-bar{
+  width:15px;
 }
 
 
